@@ -45,8 +45,8 @@ console.log("BMI of John is"+ " "+ BMIJohn);
 //TEST DATA 2 
 massMark = 95;
 massJohn = 85;
-heightJohn = 1.88;
-heightMark = 1.76;
+heightJohn = 1.76;
+heightMark = 1.88;
 
 BMIMark = massMark / (heightMark * heightMark);
 BMIJohn = massJohn / (heightJohn*heightJohn);
