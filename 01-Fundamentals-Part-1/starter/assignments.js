@@ -90,3 +90,36 @@ BMIJohnNew = 29.1;
 
 if(BMIMark > BMIJohn){ console.log("Mark's BMI " + (BMIMarkNew) + " is higher than John's!")
 } else { console.log("John's BMI " + (BMIJohnNew) + " is higher than Mark's!")}
+
+/*CHALLENGE #3
+Your tasks:
+
+1. Calculate the average score for each team, using the test data included below. The average score for Dolphins should be assigned to the scoreDolphins variable, and the average score of Koalas should be assigned to the scoreKoalas variable.
+
+2. Compare the team's average scores to determine the winner of the competition, and print to the console:
+"Dolphins win the trophy" if Dolphins win, or
+"Koalas win the trophy" if Koalas win, or
+"Both win the trophy" if their average scores are equal.
+
+
+TEST DATA: Dolphins scored 96, 108, and 89. Koalas scored 88, 91, and 110.
+
+
+👉 OPTIONAL: You can watch my solution in video format in the next lecture
+
+
+This topic is covered in
+Lecture 18: Taking Decisions: if / else Statements
+Lecture 23: Boolean Logic
+Lecture 24: Logical Operators
+
+
+*/
+
+let scoreDolphins = (96 + 108 + 89)/3;
+let scoreKoalas = (88+91+110)/3;
+
+
+if (scoreDolphins > scoreKoalas) {console.log("Dolphins win the trophy")} else if (scoreDolphins === scoreKoalas) {console.log("Both win the trophy")} else {
+ console.log("Koalas win the trophy")   
+}
