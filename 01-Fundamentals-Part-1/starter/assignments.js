@@ -123,3 +123,66 @@ let scoreKoalas = (88+91+110)/3;
 if (scoreDolphins > scoreKoalas) {console.log("Dolphins win the trophy")} else if (scoreDolphins === scoreKoalas) {console.log("Both win the trophy")} else {
  console.log("Koalas win the trophy")   
 }
+/* Exercise 4 - /switch statement
+1. Use a switch statement to log the following string for the given day variable:
+
+- "Plan course structure" for Monday
+- "Go to coding meetup" for Tuesday
+- "Prepare theory videos" for Wednesday
+- "Write code examples" for Thursday
+- "Record videos" for Friday
+- "Enjoy the weekend" for Saturday and Sunday
+- "Not a valid day!" for all other days
+Bonus: Use if/else statements with days wednesday or thursday to replace the operator switch statement.
+*/
+
+const day = 'monday';
+
+switch (day) {
+    case 'monday':
+        console.log("Plan course structure");
+        break;
+    case 'tuesday':
+        console.log("Go to coding meetup");
+        break;
+    case 'wednesday':
+        console.log("Prepare theory videos");
+        break;  
+    case 'thursday':
+        console.log("Write code examples");
+        break;
+    case 'friday':
+        console.log("Record videos");
+        break;
+    case 'saturday':
+    case 'sunday':
+        console.log("Enjoy the weekend");
+        break;
+    default:
+        console.log("Not a valid day!");
+}
+
+//Bonus: Use if/else statements with days wednesday or thursday to replace the operator switch statement.
+
+if (day === 'wednesday') {
+    console.log("Prepare theory videos");
+} else if (day === 'thursday') 
+        {
+    console.log("Write code examples");
+}
+else if (day === 'monday') {
+    console.log("Plan course structure");
+}
+else if (day === 'tuesday') {
+    console.log("Go to coding meetup");
+}
+else if (day === 'friday') {
+    console.log("Record videos");
+}
+else if (day === 'saturday' || day === 'sunday') {
+    console.log("Enjoy the weekend");
+}
+else {
+    console.log("Not a valid day!");
+}
+
