@@ -186,3 +186,15 @@ else {
     console.log("Not a valid day!");
 }
 
+//Exrcise 5 - /Ternary Operator
+//1. Use the ternary operator to log a string to the console saying whether the person is old enough to drive (18 or older). 
+//If they are, the message should say: "Sarah is old enough to drive". If they are not, the message should say: "Sarah is not old enough to drive".
+
+const age = 19;
+const message = age >= 18 ? "Sarah is old enough to drive" : "Sarah is not old enough to drive";
+console.log(message);
+
+const age2 = 18;
+const message2 = age2 >= 18 ? "wine 🍷" : "water 🥤";
+console.log(message2);
+
