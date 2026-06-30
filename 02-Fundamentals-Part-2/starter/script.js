@@ -23,3 +23,17 @@ console.log(appleJuice);
 
 const appleOrangeJuice = fruitProcess(10, 40);
 console.log(appleOrangeJuice);
+
+//Declaration vs Expression
+
+//Function Declaration
+function calcAge1(birthYear) {
+  return 2050 - birthYear;
+}
+const age1 = calcAge1(1978);
+//Function Expression
+const calcAge2 = function (birthYear) {
+  return 2050 - birthYear;
+};
+const age2 = calcAge2(1978);
+console.log(age1, age2);
